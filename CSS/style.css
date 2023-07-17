@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+}
+
+.border-css{
+    border: 1px solid black;
+}
+
+.background1{
+    background-image: url('../Images/slider1.jpg');
+    background-size: 100% 100%;
+    background-position: center center;
+    height: auto;
+    position: relative;
+    padding-bottom: 150px;
+}
+
+#listcolor{
+    font-size: 20px;
+    padding: 10px 20px;
+    color: white;
+}
+
+#active{
+    color: rgb(10, 179, 10);
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.mt-10{
+    margin-top: 100px;
+}
+
+.font-change{
+    font-weight: 700;
+    font-size: 110px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-css{
+    background-color: white;
+    color: black;
+    padding: 20px 40px;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.btn-css:hover{
+    background-color: magenta;
+    color: white;
+}
+
+.padding-css{
+    padding-bottom: 150px;
+}
+
+.background2{
+    background-image: url('../Images/slider2.jpg');
+    background-size: 100% 100%;
+    background-position: center center;
+    height: auto;
+    position: relative;
+    padding-bottom: 150px;
+}
+
+.background3{
+    background-image: url('../Images/slider3.jpg');
+    background-size: 100% 100%;
+    background-position: center center;
+    height: auto;
+    position: relative;
+    padding-bottom: 150px;
+}
+
+/* Section 1 CSS Classes */
+
+.background-css{
+    background-color: rgb(241, 237, 237);
+    padding: 30px 70px;
+    color: black;
+    /* transform: translateY(-70px); */
+    border-radius: 100px;
+    position: absolute;
+    top: -70px;
+    /* left: 90px; */
+    z-index: 1;
+    
+}
+
+.background4{
+    background-image: url('../Images/first-section-bg.png');
+    background-color: white;
+    background-size: 100% 100%;
+    background-position: center center;
+    height: auto;
+    padding-bottom: 250px;
+    position: relative;
+    /* z-index: -1; */
+}
+
+/* Section 2 CSS Classes */
+
+.section3padding{
+    padding-bottom: 100px;
+}
+
+.section3background-css{
+    border-radius: 20px;
+    background-color: rgb(233, 227, 227);
+    margin: 10px 20px;
+    outline: 0px solid magenta;
+    position: relative;
+    /* transition: outline 0.01s linear; */ 
+    box-shadow: 0 0 30px 0 rgb(0 0 0/6%);
+    overflow: hidden;
+    position: relative;
+}
+
+.section3background-css:hover{
+    outline: 2px solid magenta;
+}
+
+.section3text-css{
+    font-size: 20px;
+    font-weight: 700;
+    width: 60%;
+    line-height: 1.3;
+    display: block;
+    margin: auto;
+}
+
+.section3text-css:hover{
+    color: magenta;
+}
+
+
+.semicircle{
+    position: absolute;
+    bottom: 0%;
+    left: 30%; 
+    /* transform: translate(0,-50%); */
+    height: 25px;;
+    width: 100px;
+    border-radius: 50% / 100% 100% 0 0;
+    background-color: magenta;
+    visibility: hidden;
+}
+
+.section3background-css:hover>.semicircle{
+    visibility: visible;
+}
+
+/* Section 3 CSS Classes */
+
+.section4-css{
+    padding-bottom: 100px;
+}
+
+.section4-p-css{
+    text-align: justify; 
+    width: 80%;
+    color: #282828;
+    font-family: poppins,Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.section4leftimage{
+    width: 480px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
